@@ -1,0 +1,451 @@
+{
+  "zone1": {
+    "operation1": {
+      "requiredStars": 3,
+      "characters": [
+        "OldManLogan",
+        "HankPym",
+        "Sasquatch",
+        "Guardian",
+        "Daken",
+        "IronPatriot"
+      ]
+    },
+    "operation2": {
+      "requiredStars": 5,
+      "characters": [
+        "BlackBolt",
+        "BlackPantherShuri",
+        "Northstar",
+        "PandaPool",
+        "TheLeader",
+        "Sunfire"
+      ]
+    },
+    "operation3": {
+      "requiredStars": 7,
+      "characters": [
+        "IronMan",
+        "Deathpool",
+        "Namor",
+        "MrFantastic",
+        "Deadpool",
+        "Wolverine"
+      ]
+    },
+    "operation4": {
+      "requiredGearTier": 15,
+      "characters": [
+        "CosmicGhostRider",
+        "SpiderSlayer",
+        "SpiderManNoir",
+        "SilverSurfer",
+        "MoonKnight",
+        "Venom"
+      ]
+    },
+    "operation5": {
+      "requiredGearTier": 17,
+      "characters": [
+        "SuperSkrull",
+        "BlackCat",
+        "PeterBParker",
+        "RedGoblin",
+        "KravenTheHunter",
+        "Ultimus"
+      ]
+    },
+    "operation6": {
+      "requiredRedStars": 6,
+      "characters": [
+        "Nova",
+        "DoctorOctopus",
+        "Gorr",
+        "SpiderManPavitr",
+        "Mysterio",
+        "Carnage"
+      ]
+    },
+    "operation7": {
+      "requiredGearTier": 19,
+      "characters": [
+        "GreenGoblinGlider",
+        "ThanosEndgame",
+        "PeniParker",
+        "SymbioteSilverSurfer",
+        "SpiderManBigTime",
+        "Vahl"
+      ]
+    },
+    "operation8": {
+      "requiredDiamond": 1,
+      "characters": [
+        "Gladiator",
+        "Gwenom",
+        "Lizard",
+        "KangTheConqueror",
+        "GhostSpider",
+        "Vulture"
+      ]
+    }
+  },
+  "zone2": {
+    "operation1": {
+      "requiredStars": 3,
+      "characters": [
+        "CaptainBritain",
+        "ThanosEndgame",
+        "Gorr",
+        "BlackPantherShuri",
+        "PeniParker",
+        "PeterBParker"
+      ]
+    },
+    "operation2": {
+      "requiredStars": 5,
+      "characters": [
+        "Gladiator",
+        "HankPym",
+        "SpiderManPavitr",
+        "StarBrand",
+        "MrFantastic",
+        "Ultimus"
+      ]
+    },
+    "operation3": {
+      "requiredStars": 7,
+      "characters": [
+        "BlackBolt",
+        "CosmicGhostRider",
+        "BlackKnight",
+        "SpiderManNoir",
+        "SilverSurfer",
+        "GhostSpider"
+      ]
+    },
+    "operation4": {
+      "requiredGearTier": 15,
+      "characters": [
+        "Doom",
+        "ZombieJuggernaut",
+        "OmegaSentinel",
+        "Northstar",
+        "Daken"
+      ]
+    },
+    "operation5": {
+      "requiredGearTier": 17,
+      "characters": [
+        "Rogue",
+        "Sentinel",
+        "Ares",
+        "Forge",
+        "Sunfire",
+        "Deathpool"
+      ]
+    },
+    "operation6": {
+      "requiredRedStars": 6,
+      "characters": [
+        "ZombieIronMan",
+        "PandaPool",
+        "IronPatriot",
+        "Cyclops",
+        "ScientistSupreme",
+        "Wolverine"
+      ]
+    },
+    "operation7": {
+      "requiredGearTier": 19,
+      "characters": [
+        "Apocalypse",
+        "OldManLogan",
+        "Nimrod",
+        "Sasquatch",
+        "TheLeader",
+        "Gambit"
+      ]
+    },
+    "operation8": {
+      "requiredDiamond": 1,
+      "characters": [
+        "Guardian",
+        "Nightcrawler",
+        "AgathaHarkness",
+        "LadyDeathstrike",
+        "Namor",
+        "Deadpool"
+      ]
+    }
+  },
+  "zone3": {
+    "operation1": {
+      "requiredStars": 3,
+      "characters": [
+        "OmegaSentinel",
+        "Nimrod",
+        "Northstar",
+        "PandaPool",
+        "Gwenom",
+        "Deadpool"
+      ]
+    },
+    "operation2": {
+      "requiredStars": 5,
+      "characters": [
+        "OldManLogan",
+        "Sentinel",
+        "Sasquatch",
+        "RedGoblin",
+        "Deathpool",
+        "Wolverine"
+      ]
+    },
+    "operation3": {
+      "requiredStars": 7,
+      "characters": [
+        "Guardian",
+        "Daken",
+        "SymbioteSilverSurfer",
+        "Sunfire",
+        "LadyDeathstrike",
+        "ScientistSupreme"
+      ]
+    },
+    "operation4": {
+      "requiredGearTier": 15,
+      "characters": [
+        "BlackCat",
+        "IronMan",
+        "PeterBParker",
+        "StarBrand",
+        "Quicksilver",
+        "Ultimus"
+      ]
+    },
+    "operation5": {
+      "requiredGearTier": 17,
+      "characters": [
+        "GreenGoblinGlider",
+        "CaptainBritain",
+        "Gorr",
+        "SpiderManPavitr",
+        "SpiderManBigTime",
+        "CaptainCarter"
+      ]
+    },
+    "operation6": {
+      "requiredRedStars": 6,
+      "characters": [
+        "SuperSkrull",
+        "BlackBolt",
+        "Ares",
+        "CosmicGhostRider",
+        "Sunspot",
+        "SilverSurfer"
+      ]
+    },
+    "operation7": {
+      "requiredGearTier": 19,
+      "characters": [
+        "Mephisto",
+        "Nova",
+        "Gladiator",
+        "BlackPantherShuri",
+        "BlackKnight",
+        "Nightcrawler"
+      ]
+    },
+    "operation8": {
+      "requiredDiamond": 1,
+      "characters": [
+        "Apocalypse",
+        "ThanosEndgame",
+        "HankPym",
+        "PeniParker",
+        "Forge",
+        "CaptainAmerica"
+      ]
+    }
+  },
+  "zone4": {
+    "operation1": {
+      "requiredStars": 3,
+      "characters": [
+        "ManThing",
+        "Oath",
+        "Blade",
+        "Sentinel",
+        "AgathaHarkness",
+        "Ultimus"
+      ]
+    },
+    "operation2": {
+      "requiredStars": 5,
+      "characters": [
+        "Doom",
+        "CaptainBritain",
+        "OmegaSentinel",
+        "Nimrod",
+        "ThanosEndgame",
+        "Guardian"
+      ]
+    },
+    "operation3": {
+      "requiredStars": 7,
+      "characters": [
+        "Dormammu",
+        "HankPym",
+        "BlackPantherShuri",
+        "Northstar",
+        "PeniParker",
+        "MoonKnight"
+      ]
+    },
+    "operation4": {
+      "requiredGearTier": 15,
+      "characters": [
+        "Archangel",
+        "Phoenix",
+        "ZombieScarletWitch",
+        "SpiderManPavitr",
+        "SpiderWeaver",
+        "Cyclops"
+      ]
+    },
+    "operation5": {
+      "requiredGearTier": 17,
+      "characters": [
+        "Rogue",
+        "MorganLeFay",
+        "ZombieJuggernaut",
+        "Gladiator",
+        "Sunspot",
+        "X23"
+      ]
+    },
+    "operation6": {
+      "requiredRedStars": 6,
+      "characters": [
+        "Odin",
+        "OldManLogan",
+        "RedHulk",
+        "PeterBParker",
+        "RedGoblin",
+        "Nightcrawler"
+      ]
+    },
+    "operation7": {
+      "requiredGearTier": 19,
+      "characters": [
+        "SuperSkrull",
+        "Gorr",
+        "Gwenom",
+        "Forge",
+        "Deathpool",
+        "Wolverine"
+      ]
+    },
+    "operation8": {
+      "requiredDiamond": 1,
+      "characters": [
+        "ZombieIronMan",
+        "Sasquatch",
+        "SymbioteSilverSurfer",
+        "Vahl",
+        "Sunfire",
+        "Gambit"
+      ]
+    }
+  },
+  "zone5": {
+    "operation1": {
+      "requiredStars": 3,
+      "characters": [
+        "ZombieScarletWitch",
+        "Gladiator",
+        "Guardian",
+        "Sunfire",
+        "SilverSurfer",
+        "Wolverine"
+      ]
+    },
+    "operation2": {
+      "requiredStars": 5,
+      "characters": [
+        "ZombieIronMan",
+        "Gorr",
+        "Ares",
+        "Northstar",
+        "Daken",
+        "Deadpool"
+      ]
+    },
+    "operation3": {
+      "requiredStars": 7,
+      "characters": [
+        "OldManLogan",
+        "ZombieJuggernaut",
+        "ThanosEndgame",
+        "Sasquatch",
+        "PandaPool",
+        "Ultimus"
+      ]
+    },
+    "operation4": {
+      "requiredGearTier": 15,
+      "characters": [
+        "ManThing",
+        "PeniParker",
+        "SymbioteSilverSurfer",
+        "GhostRiderRobbie",
+        "LadyDeathstrike",
+        "Mysterio"
+      ]
+    },
+    "operation5": {
+      "requiredGearTier": 17,
+      "characters": [
+        "Apocalypse",
+        "Oath",
+        "Gwenom",
+        "SpiderSlayer",
+        "Quicksilver",
+        "ScientistSupreme"
+      ]
+    },
+    "operation6": {
+      "requiredRedStars": 6,
+      "characters": [
+        "GreenGoblinGlider",
+        "CaptainBritain",
+        "Sentinel",
+        "HankPym",
+        "BlackPantherShuri",
+        "Venom"
+      ]
+    },
+    "operation7": {
+      "requiredGearTier": 19,
+      "characters": [
+        "Blade",
+        "OmegaSentinel",
+        "PeterBParker",
+        "CosmicGhostRider",
+        "RedGoblin",
+        "Vulture"
+      ]
+    },
+    "operation8": {
+      "requiredDiamond": 1,
+      "characters": [
+        "DoctorOctopus",
+        "Nimrod",
+        "SpiderManPavitr",
+        "Deathpool",
+        "MoonKnight",
+        "Carnage"
+      ]
+    }
+  }
+}

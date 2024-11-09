@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/msf-battleworld-planner/static/css/main.e35fe3d7.css",
-    "main.js": "/msf-battleworld-planner/static/js/main.7e6ef9f5.js",
+    "main.js": "/msf-battleworld-planner/static/js/main.b8170824.js",
     "static/js/453.af2aa738.chunk.js": "/msf-battleworld-planner/static/js/453.af2aa738.chunk.js",
     "index.html": "/msf-battleworld-planner/index.html",
     "main.e35fe3d7.css.map": "/msf-battleworld-planner/static/css/main.e35fe3d7.css.map",
-    "main.7e6ef9f5.js.map": "/msf-battleworld-planner/static/js/main.7e6ef9f5.js.map",
+    "main.b8170824.js.map": "/msf-battleworld-planner/static/js/main.b8170824.js.map",
     "453.af2aa738.chunk.js.map": "/msf-battleworld-planner/static/js/453.af2aa738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e35fe3d7.css",
-    "static/js/main.7e6ef9f5.js"
+    "static/js/main.b8170824.js"
   ]
 }

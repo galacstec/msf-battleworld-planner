@@ -11,6 +11,10 @@ td {
   padding: 5px;
 }
 
+tr:nth-child(6n) > * {
+  border-bottom: 3px solid #000;
+}
+
 th {
   position: sticky;
   top: 0;

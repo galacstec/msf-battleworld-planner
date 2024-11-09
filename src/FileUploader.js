@@ -13,6 +13,9 @@ const FileUploader = ({ onFileUpload }) => {
       complete: (result) => {
         onFileUpload(result, type);
       },
+      error: (error) => {
+        console.error(error);
+      },
     });
     event.target.nextElementSibling.nextElementSibling.textContent = `${file.name} enviado`;
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./CharacterTable.css";
 
-const CharacterTable = ({ data, handleDiamondChange }) => {
+const CharacterTable = ({ data }) => {
   const playerNames = [
     ...new Set(
       Object.values(data).flatMap((zone) =>
@@ -63,7 +63,7 @@ const CharacterTable = ({ data, handleDiamondChange }) => {
                           {requirement.requiredGearTier}
                         </strong>
                       </span>
-                    ) : requirement.requiredRedStars ? (
+                    ) : requirement.requiredRedStars === 6 ? (
                       <span className="fa-stack">
                         <i
                           className="fas fa-star fa-stack-1x"
@@ -79,9 +79,7 @@ const CharacterTable = ({ data, handleDiamondChange }) => {
                           className="fas fa-gem fa-stack-1x"
                           style={{ color: "cyan" }}
                         ></i>
-                        <strong className="fa-stack-1x">
-                          {requirement.requiredDiamond}
-                        </strong>
+                        <strong className="fa-stack-1x">1</strong>
                       </span>
                     )}
                   </th>
@@ -91,34 +89,19 @@ const CharacterTable = ({ data, handleDiamondChange }) => {
                       style={
                         data[zone][operation].characters[characterId]
                           .eligiblePlayers[playerName] === "unknown"
-                          ? { backgroundColor: "lightgray" }
+                          ? {
+                              backgroundColor: "lightgray",
+                            }
                           : {}
                       }
                     >
-                      {requirement.requiredDiamond ? (
-                        <input
-                          type="checkbox"
-                          checked={
-                            data[zone][operation].characters[characterId]
-                              .eligiblePlayers[playerName]
-                          }
-                          onChange={(e) =>
-                            handleDiamondChange(
-                              playerName,
-                              characterId,
-                              e.target.checked
-                            )
-                          }
-                        />
-                      ) : data[zone][operation].characters[characterId]
-                          .eligiblePlayers[playerName] === "unknown" ? (
-                        "❓"
-                      ) : data[zone][operation].characters[characterId]
-                          .eligiblePlayers[playerName] ? (
-                        "✔️"
-                      ) : (
-                        "❌"
-                      )}
+                      {data[zone][operation].characters[characterId]
+                        .eligiblePlayers[playerName] === "unknown"
+                        ? "❓"
+                        : data[zone][operation].characters[characterId]
+                            .eligiblePlayers[playerName]
+                        ? "✔️"
+                        : "❌"}
                     </td>
                   ))}
                 </tr>

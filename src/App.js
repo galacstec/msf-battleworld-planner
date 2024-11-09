@@ -10,7 +10,6 @@ const App = () => {
   const [characters, setCharacters] = useState([]);
   const [info, setInfo] = useState([]);
   const [data, setData] = useState(null);
-  const [diamondData, setDiamondData] = useState({});
   const [selectedZone, setSelectedZone] = useState("");
   const [selectedOperation, setSelectedOperation] = useState("");
 
@@ -23,11 +22,6 @@ const App = () => {
     const storedInfoData = localStorage.getItem("info");
     if (storedInfoData) {
       setInfo(JSON.parse(storedInfoData));
-    }
-
-    const storedDiamondData = localStorage.getItem("diamondData");
-    if (storedDiamondData) {
-      setDiamondData(JSON.parse(storedDiamondData));
     }
   }, []);
 
@@ -44,29 +38,15 @@ const App = () => {
   };
 
   const processEvent = (characters, info) => {
-    const result = processCharacters(
-      characters,
-      info,
-      requirements,
-      diamondData
-    );
+    const result = processCharacters(characters, info, requirements);
     setData(result);
-  };
-
-  const handleDiamondChange = (playerName, characterId, value) => {
-    const updatedDiamondData = {
-      ...diamondData,
-      [`${playerName}-${characterId}`]: value,
-    };
-    setDiamondData(updatedDiamondData);
-    localStorage.setItem("diamondData", JSON.stringify(updatedDiamondData));
   };
 
   useEffect(() => {
     if (characters.length > 0) {
       processEvent(characters, info);
     }
-  }, [characters, diamondData, info]);
+  }, [characters, info]);
 
   const handleZoneChange = (zone) => {
     setSelectedZone(zone);
@@ -112,10 +92,7 @@ const App = () => {
         requirements={requirements}
       />
       {Object.keys(filteredData).length > 0 && (
-        <CharacterTable
-          data={filteredData}
-          handleDiamondChange={handleDiamondChange}
-        />
+        <CharacterTable data={filteredData} />
       )}
     </div>
   );

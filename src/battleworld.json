@@ -78,7 +78,7 @@
       ]
     },
     "operation8": {
-      "requiredDiamond": 1,
+      "requiredRedStars": 8,
       "characters": [
         "Gladiator",
         "Gwenom",
@@ -167,7 +167,7 @@
       ]
     },
     "operation8": {
-      "requiredDiamond": 1,
+      "requiredRedStars": 8,
       "characters": [
         "Guardian",
         "Nightcrawler",
@@ -257,7 +257,7 @@
       ]
     },
     "operation8": {
-      "requiredDiamond": 1,
+      "requiredRedStars": 8,
       "characters": [
         "Apocalypse",
         "ThanosEndgame",
@@ -347,7 +347,7 @@
       ]
     },
     "operation8": {
-      "requiredDiamond": 1,
+      "requiredRedStars": 8,
       "characters": [
         "ZombieIronMan",
         "Sasquatch",
@@ -437,7 +437,7 @@
       ]
     },
     "operation8": {
-      "requiredDiamond": 1,
+      "requiredRedStars": 8,
       "characters": [
         "DoctorOctopus",
         "Nimrod",

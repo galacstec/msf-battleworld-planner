@@ -92,7 +92,10 @@ const CharacterTable = ({ data }) => {
                           ? {
                               backgroundColor: "lightgray",
                             }
-                          : {}
+                          : data[zone][operation].characters[characterId]
+                              .eligiblePlayers[playerName]
+                          ? { backgroundColor: "lightgreen" }
+                          : { backgroundColor: "lightcoral" }
                       }
                     >
                       {data[zone][operation].characters[characterId]
